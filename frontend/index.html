@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Roulette game</title>
+</head>
+
+<body>
+
+    <audio src="./sound/roue-fortune.mp3" id="rouletteSong"></audio>
+    <audio src="./sound/cf_gagne.mp3" id="finishSong"></audio>
+
+    <div id="overlay"></div>
+
+    <canvas id="canvas1"></canvas>
+    <canvas id="canvas2"></canvas>
+
+    <div id="btn-turn-wheel">
+        <div id="result">GO !</div>
+    </div>
+
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+
+</html>
